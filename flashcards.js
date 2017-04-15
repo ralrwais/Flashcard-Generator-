@@ -19,6 +19,8 @@ var command = process.argv[2];
  var skyColor = new basicCard('What color is the sky?', 'Blue');
 
  var firstPresidentCloze = new clozeCard('George Washington was the first president of the United States.', 'George Washington');
+ var skyColorCloze = new clozeCard('The sky is blue.', 'blue');
+
 
 inquirer.prompt([
 		{
